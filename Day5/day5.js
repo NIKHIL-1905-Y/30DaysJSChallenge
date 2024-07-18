@@ -86,7 +86,7 @@ repeatFunction(() => console.log('Hello'), 3);
 // • Task 10: Write a higher-order function that takes two functions and a value, applies the first function to the value, and then applies
 // the second function to the result.
 
-function applyFunctions(fn1, fn2, value) {
+function FunctionsApp(fn1, fn2, value) {
     return fn2(fn1(value));
 }
 
